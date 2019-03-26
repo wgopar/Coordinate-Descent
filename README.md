@@ -1,4 +1,4 @@
-# CoordinateDescentExperimentation
+# Coordinate Descent Experiment
 
 
 This notebook showcases two different approaches to implementing coordinate descent on model defined with cross entropy loss. Coordinate descent does have problems if implemented on non-smooth multivariate functions as the algorithm may get stuck at a non-stationary points. This is because the level curves of the function are not smooth. Besides this, the algorithm does have increased interest in large-scale problems where it has been shown to be competitive to other algorithms when training support vector machines and performing non-negative matrix factorization. 
